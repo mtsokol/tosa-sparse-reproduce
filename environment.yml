@@ -1,0 +1,9 @@
+name: sparse-dev
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - conda-forge/label/llvm_rc::mlir-python-bindings==19.1.0.rc3
